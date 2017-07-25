@@ -41,19 +41,6 @@ Vehicle theft | 0.33 | 0.25 | 0.28
 Theft of property | 0.31 | 0.22 | 0.26
 **Avg / total** | **0.43** | **0.46** | **0.44**
 
-Classification Report:
-              precision    recall  f1-score   support
-
-          1                         5265
-          2                         1082
-          3                        10068
-          4             0.50            1673
-          5       0.21      0.14      0.17      3437
-          6       0.15      0.09      0.11      1323
-          7       0.33      0.25      0.28      2555
-          8       0.31      0.22      0.26      2446
-
-avg / total       0.43      0.46      0.44     27849
 
 ### Visualization of Data
 
