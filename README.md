@@ -27,19 +27,33 @@ dispensary, healthcare facility, homeless shelter
 5. Total number of nearby medical marijuana dispensaries, train stations,
 health care facilities, homeless shelters  
 
-### Final Model: KNN (k=250)
+### Final Model: Bagging Classifier (n=300)
 
 Classification | Precision | Recall | F1
 ---------------|-----------|--------|---
-Assault | 0.37 | 0.51 | 0.43
-Shoplifting | 0.41 | 0.37 | 0.39
-Theft from auto | 0.50 | 0.81 | 0.62
-Drugs/narcotic | 0.55 | 0.50 | 0.53
-Vandalism | 0.21 | 0.04 | 0.06
-Robbery | 0.13 | 0.03 | 0.05
-Vehicle theft | 0.57 | 0.11 | 0.18
-Theft of property | 0.31 | 0.07 | 0.11
-**Avg / total** | **0.41** | **0.45** | **0.39**
+Assault | 0.42 | 0.48 | 0.45
+Shoplifting | 0.50 | 0.47 | 0.48
+Theft from auto | 0.57 | 0.71 | 0.63
+Drugs/narcotic | 0.55 | 0.50 | 0.52
+Vandalism | 0.21 | 0.14 | 0.17
+Robbery | 0.15 | 0.09 | 0.11
+Vehicle theft | 0.33 | 0.25 | 0.28
+Theft of property | 0.31 | 0.22 | 0.26
+**Avg / total** | **0.43** | **0.46** | **0.44**
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          1                         5265
+          2                         1082
+          3                        10068
+          4             0.50            1673
+          5       0.21      0.14      0.17      3437
+          6       0.15      0.09      0.11      1323
+          7       0.33      0.25      0.28      2555
+          8       0.31      0.22      0.26      2446
+
+avg / total       0.43      0.46      0.44     27849
 
 ### Visualization of Data
 
